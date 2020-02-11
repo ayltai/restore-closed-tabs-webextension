@@ -1,0 +1,120 @@
+{
+    "manifest_version" : 2,
+    "name"             : "Restore Closed Tabs",
+    "short_name"       : "restore-closed-tabs",
+    "description"      : "Provides a reliable way to restore closed tabs. Never lost a tab again!",
+    "version"          : "1.0.0",
+    "homepage_url"     : "https://github.com/ayltai/restore-closed-tabs-webextension",
+    "author"           : "Alan Tai",
+    "applications"     : {
+        "gecko" : {
+            "id"                 : "{f534b5bf-d8cd-430a-a76b-6f395220bd52}",
+            "strict_min_version" : "58.0"
+        }
+    },
+    "icons"            : {
+        "16"  : "icons/16-white.png",
+        "24"  : "icons/24-white.png",
+        "32"  : "icons/32-white.png",
+        "48"  : "icons/48-white.png",
+        "64"  : "icons/64-white.png",
+        "72"  : "icons/72-white.png",
+        "96"  : "icons/96-white.png",
+        "128" : "icons/128-white.png",
+        "144" : "icons/144-white.png",
+        "192" : "icons/192-white.png",
+        "256" : "icons/256-white.png",
+        "512" : "icons/512-white.png"
+    },
+    "permissions"      : [
+        "sessions",
+        "storage",
+        "tabs",
+        "theme"
+    ],
+    "browser_action"   : {
+        "browser_style" : true,
+        "default_title" : "Restore Closed Tabs",
+        "default_popup" : "popups/index.html",
+        "default_icon"  : {
+            "16"  : "icons/16-white.png",
+            "24"  : "icons/24-white.png",
+            "32"  : "icons/32-white.png",
+            "48"  : "icons/48-white.png",
+            "64"  : "icons/64-white.png",
+            "72"  : "icons/72-white.png",
+            "96"  : "icons/96-white.png",
+            "128" : "icons/128-white.png",
+            "144" : "icons/144-white.png",
+            "192" : "icons/192-white.png",
+            "256" : "icons/256-white.png",
+            "512" : "icons/512-white.png"
+        },
+        "theme_icons"   : [
+            {
+                "dark"  : "icons/16-black.png",
+                "light" : "icons/16-white.png",
+                "size"  : 16
+            },
+            {
+                "dark"  : "icons/24-black.png",
+                "light" : "icons/24-white.png",
+                "size"  : 24
+            },
+            {
+                "dark"  : "icons/32-black.png",
+                "light" : "icons/32-white.png",
+                "size"  : 32
+            },
+            {
+                "dark"  : "icons/48-black.png",
+                "light" : "icons/48-white.png",
+                "size"  : 48
+            },
+            {
+                "dark"  : "icons/64-black.png",
+                "light" : "icons/64-white.png",
+                "size"  : 64
+            },
+            {
+                "dark"  : "icons/72-black.png",
+                "light" : "icons/72-white.png",
+                "size"  : 72
+            },
+            {
+                "dark"  : "icons/96-black.png",
+                "light" : "icons/96-white.png",
+                "size"  : 96
+            },
+            {
+                "dark"  : "icons/128-black.png",
+                "light" : "icons/128-white.png",
+                "size"  : 128
+            },
+            {
+                "dark"  : "icons/144-black.png",
+                "light" : "icons/144-white.png",
+                "size"  : 144
+            },
+            {
+                "dark"  : "icons/192-black.png",
+                "light" : "icons/192-white.png",
+                "size"  : 192
+            },
+            {
+                "dark"  : "icons/256-black.png",
+                "light" : "icons/256-white.png",
+                "size"  : 256
+            },
+            {
+                "dark"  : "icons/512-black.png",
+                "light" : "icons/512-white.png",
+                "size"  : 512
+            }
+        ]
+    },
+    "options_ui"       : {
+        "open_in_tab" : false,
+        "page"        : "options/index.html"
+    }
+}

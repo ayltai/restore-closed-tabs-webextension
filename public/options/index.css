@@ -1,0 +1,26 @@
+body {
+    margin: 8px;
+}
+
+button {
+    margin: 4px;
+}
+
+.row {
+    display: flex;
+}
+
+.label {
+    margin: 4px;
+}
+
+.input {
+    margin: 4px;
+    flex: 1;
+}
+
+.message {
+    margin: 4px;
+    font-weight: bold;
+    color: #33691e;
+}

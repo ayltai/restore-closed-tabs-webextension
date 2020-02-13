@@ -1,18 +1,18 @@
 {
-    "manifest_version" : 2,
-    "name"             : "Restore Closed Tabs",
-    "short_name"       : "restore-closed-tabs",
-    "description"      : "Provides a reliable way to restore closed tabs. Never lost a tab again!",
-    "version"          : "1.0.0",
-    "homepage_url"     : "https://github.com/ayltai/restore-closed-tabs-webextension",
-    "author"           : "Alan Tai",
-    "applications"     : {
+    "manifest_version"        : 2,
+    "name"                    : "Restore Closed Tabs",
+    "short_name"              : "restore-closed-tabs",
+    "description"             : "Provides a reliable way to restore closed tabs. Never lost a tab again!",
+    "version"                 : "2.0.0",
+    "homepage_url"            : "https://github.com/ayltai/restore-closed-tabs-webextension",
+    "author"                  : "Alan Tai",
+    "applications"            : {
         "gecko" : {
             "id"                 : "{f534b5bf-d8cd-430a-a76b-6f395220bd52}",
             "strict_min_version" : "58.0"
         }
     },
-    "icons"            : {
+    "icons"                   : {
         "16"  : "icons/16-white.png",
         "24"  : "icons/24-white.png",
         "32"  : "icons/32-white.png",
@@ -26,16 +26,15 @@
         "256" : "icons/256-white.png",
         "512" : "icons/512-white.png"
     },
-    "permissions"      : [
+    "permissions"             : [
         "sessions",
         "storage",
-        "tabs",
-        "theme"
+        "tabs"
     ],
-    "browser_action"   : {
+    "browser_action"          : {
         "browser_style" : true,
         "default_title" : "Restore Closed Tabs",
-        "default_popup" : "popups/index.html",
+        "default_popup" : "index.html",
         "default_icon"  : {
             "16"  : "icons/16-white.png",
             "24"  : "icons/24-white.png",
@@ -113,7 +112,7 @@
             }
         ]
     },
-    "options_ui"       : {
+    "options_ui"              : {
         "open_in_tab" : false,
         "page"        : "options/index.html"
     }

@@ -1,0 +1,14 @@
+body {
+    background-color: #fafafa;
+    color: #212121;
+    margin: 0;
+    width: 320px;
+    overflow-x: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #424242;
+        color: #f5f5f5;
+    }
+}

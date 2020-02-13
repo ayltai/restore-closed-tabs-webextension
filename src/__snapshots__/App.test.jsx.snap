@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+Array [
+  <ul
+    className="MuiList-root MuiList-dense MuiList-padding"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-dense MuiListItem-gutters Mui-disabled"
+      disabled={true}
+    >
+      <div
+        className="MuiListItemAvatar-root makeStyles-wrapper-116"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-square makeStyles-icon-115 MuiAvatar-colorDefault"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root MuiAvatar-fallback"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <p
+          aria-describedby={null}
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title="(No recently closed tabs)"
+        >
+          (No recently closed tabs)
+        </p>
+      </div>
+    </li>
+  </ul>,
+  <hr
+    className="MuiDivider-root MuiDivider-middle"
+  />,
+  <ul
+    className="MuiList-root MuiList-padding"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-dense MuiListItem-gutters Mui-disabled"
+      disabled={true}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-wrapper-201"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+          />
+        </svg>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <p
+          aria-describedby={null}
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title="Open all in tabs"
+        >
+          Open all in tabs
+        </p>
+      </div>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-dense MuiListItem-gutters Mui-disabled"
+      disabled={true}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-wrapper-205"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"
+          />
+        </svg>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <p
+          aria-describedby={null}
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title="Clear history"
+        >
+          Clear history
+        </p>
+      </div>
+    </li>
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-wrapper-207"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <p
+          aria-describedby={null}
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title="Settings"
+        >
+          Settings
+        </p>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+  </ul>,
+]
+`;

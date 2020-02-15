@@ -18,7 +18,9 @@ export const App = () => {
 
     const [ items, setItems ] = React.useState([]);
 
-    getRecentlyClosedTabs(MAX_RESULTS, tabs => setItems(tabs));
+    if (!items.length) getRecentlyClosedTabs(MAX_RESULTS, tabs => {
+        if (tabs.length) setItems(tabs);
+    });
 
     return (
         <ThemeProvider theme={theme}>

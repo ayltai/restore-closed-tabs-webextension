@@ -15,9 +15,9 @@ document.getElementById('save').addEventListener('click', () => {
     browser.storage.sync.set({
         maxResults : Math.min(browser.sessions.MAX_SESSION_RESULTS, Math.max(2, maxResults)),
     }, () => {
-        const node = document.getElementById('message');
-        node.textContent = 'Settings saved';
+        const message = document.getElementById('message');
+        message.textContent = 'Settings saved';
 
-        window.setTimeout(() => node.textContent = '', MESSAGE_DURATION);
+        window.setTimeout(() => message.textContent = '', MESSAGE_DURATION);
     });
 });

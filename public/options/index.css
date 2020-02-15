@@ -12,6 +12,8 @@ button {
 
 .label {
     margin: 4px;
+    width: 100px;
+    text-align: end;
 }
 
 .input {

@@ -13,6 +13,10 @@ A Firefox/Chrome/Edge extension that provides a reliable way to restore closed t
 
 Available at: https://addons.mozilla.org/addon/restore-closed-tabs/
 
+![Screenshot 1](design/screenshot-1.png)
+
+![Screenshot 2](design/screenshot-2.png)
+
 ## Features
 * Shows a list of recently closed tabs
 * Restores recently closed tabs via a toolbar button
@@ -51,4 +55,3 @@ This software is made with the support of open source projects:
 ... and closed source services:
 * [CircleCI](https://circleci.com): Continuous integration and delivery
 * [SonarCloud](https://sonarcloud.io): Online service for code quality and security
-* Customizes the number of recently closed tabs to show

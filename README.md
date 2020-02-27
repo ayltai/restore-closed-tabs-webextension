@@ -13,6 +13,8 @@ A Firefox/Chrome/Edge extension that provides a reliable way to restore closed t
 
 Available at: https://addons.mozilla.org/addon/restore-closed-tabs/
 
+[![Buy me a coffee](https://img.shields.io/static/v1?label=Buy%20me%20a&message=coffee&color=important&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoff.ee/ayltai)
+
 ![Screenshot 1](design/screenshot-1.png)
 
 ![Screenshot 2](design/screenshot-2.png)

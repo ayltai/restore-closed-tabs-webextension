@@ -1,12 +1,12 @@
 export const getPreferences = (defaultValues, callback) => {
-    window.browser.storage.sync.get(defaultValues, preferences => callback(preferences));
+    window.chrome.storage.sync.get(defaultValues, preferences => callback(preferences));
 };
 
 export const getRecentlyClosedTabs = (limit, callback, getPrefs = getPreferences) => {
     getPrefs({
         maxResults : limit,
     }, preferences => {
-        window.browser.sessions.getRecentlyClosed({
+        window.chrome.sessions.getRecentlyClosed({
             maxResults : preferences.maxResults,
         }, sessions => {
             const tabs = [];

@@ -1,19 +1,19 @@
-import browser from 'sinon-chrome/webextensions';
+import chrome from 'sinon-chrome/webextensions';
 
 import { getPreferences, getRecentlyClosedTabs, } from './Utils';
 
-window.browser = browser;
+window.chrome = chrome;
 
 describe('Utils', () => {
     it('getPreferences', () => {
         getPreferences({}, jest.fn());
 
-        expect(browser.storage.sync.get.calledOnce).toBeTruthy();
+        expect(window.chrome.storage.sync.get.calledOnce).toBeTruthy();
     });
 
     it('getRecentlyClosedTabs', () => {
         getRecentlyClosedTabs(0, jest.fn(), (props, callback) => callback(props));
 
-        expect(window.browser.sessions.getRecentlyClosed.calledOnce).toBeTruthy();
+        expect(window.chrome.sessions.getRecentlyClosed.calledOnce).toBeTruthy();
     });
 });

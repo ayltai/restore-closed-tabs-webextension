@@ -3,7 +3,7 @@
     "name"                    : "Restore Closed Tabs",
     "short_name"              : "restore-closed-tabs",
     "description"             : "Provides a reliable way to restore closed tabs. Never lost a tab again!",
-    "version"                 : "2.0.1",
+    "version"                 : "2.0.2",
     "homepage_url"            : "https://github.com/ayltai/restore-closed-tabs-webextension",
     "author"                  : "Alan Tai",
     "applications"            : {
@@ -27,6 +27,7 @@
         "512" : "icons/512-white.png"
     },
     "permissions"             : [
+        "chrome://favicon/*",
         "sessions",
         "storage",
         "tabs"

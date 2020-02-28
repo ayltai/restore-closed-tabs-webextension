@@ -2,9 +2,9 @@ import { createMuiTheme, Divider, List, ThemeProvider, useMediaQuery, } from '@m
 import { ClearAll, OpenInNew, Settings, } from '@material-ui/icons';
 import React from 'react';
 
-import { MAX_RESULTS } from './Config';
-import { Entry } from './Entry';
-import { getRecentlyClosedTabs } from './Utils';
+import { MAX_RESULTS, } from './Config';
+import { Entry, } from './Entry';
+import { getRecentlyClosedTabs, } from './Utils';
 const isFirefox  = navigator.userAgent.indexOf('Firefox') !== -1;
 
 export const App = () => {
@@ -33,7 +33,7 @@ export const App = () => {
                             title={item.title || 'Untitled'}
                             clickable
                             onClick={() => {
-                                window.browser.sessions.restore(item.sessionId);
+                                window.chrome.sessions.restore(item.sessionId);
 
                                 window.close();
                             }} />
@@ -51,7 +51,7 @@ export const App = () => {
                     title='Open all in tabs'
                     clickable={Boolean(items.length)}
                     onClick={() => {
-                        if (items.length) items.forEach(item => window.browser.sessions.restore(item.sessionId));
+                        if (items.length) items.forEach(item => window.chrome.sessions.restore(item.sessionId));
 
                         window.close();
                     }} />
@@ -60,7 +60,7 @@ export const App = () => {
                     title='Clear history'
                     clickable={Boolean(items.length)}
                     onClick={() => {
-                        window.browser.browsingData.remove({}, {
+                        window.chrome.browsingData.remove({}, {
                             history : true,
                         }, () => window.close());
                     }} />
@@ -69,7 +69,7 @@ export const App = () => {
                     title='Settings'
                     clickable
                     onClick={() => {
-                        window.browser.runtime.openOptionsPage();
+                        window.chrome.runtime.openOptionsPage();
 
                         window.close();
                     }} />

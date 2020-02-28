@@ -1,7 +1,7 @@
 {
     "name"            : "restore-closed-tabs-webextension",
     "description"     : "Provides a reliable way to restore closed tabs. Never lost a tab again!",
-    "version"         : "2.0.0",
+    "version"         : "2.0.2",
     "author"          : "Alan Tai",
     "repository"      : {
         "type" : "git",

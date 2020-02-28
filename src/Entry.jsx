@@ -37,7 +37,9 @@ export const Entry = props => {
                 disableTypography
                 primary={
                     <Tooltip title={props.title}>
-                        <Typography noWrap>
+                        <Typography
+                            variant='body2'
+                            noWrap>
                             {props.title}
                         </Typography>
                     </Tooltip>

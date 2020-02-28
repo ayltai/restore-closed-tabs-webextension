@@ -3,7 +3,7 @@
 const MAX_RESULTS      = 10;
 const MESSAGE_DURATION = 1500;
 
-document.addEventListener('DOMContentLoaded', () => browser.storage.sync.get({
+document.addEventListener('DOMContentLoaded', () => window.chrome.storage.sync.get({
     maxResults : MAX_RESULTS,
 }, preferences => {
     document.getElementById('maxResults').value = preferences.maxResults;
@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => browser.storage.sync.get({
 document.getElementById('save').addEventListener('click', () => {
     const maxResults = Number(document.getElementById('maxResults').value) || MAX_RESULTS;
 
-    browser.storage.sync.set({
-        maxResults : Math.min(browser.sessions.MAX_SESSION_RESULTS, Math.max(2, maxResults)),
+    window.chrome.storage.sync.set({
+        maxResults : Math.min(window.chrome.sessions.MAX_SESSION_RESULTS, Math.max(2, maxResults)),
     }, () => {
         const message = document.getElementById('message');
         message.textContent = 'Settings saved';

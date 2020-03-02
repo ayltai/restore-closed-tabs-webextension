@@ -29,7 +29,7 @@ exports[`<Entry /> renders correctly 1`] = `
   >
     <p
       aria-describedby={null}
-      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+      className="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap"
       onBlur={[Function]}
       onFocus={[Function]}
       onMouseLeave={[Function]}

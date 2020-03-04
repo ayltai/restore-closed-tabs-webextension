@@ -11,7 +11,9 @@
 
 A Firefox/Chrome/Edge extension that provides a reliable way to restore closed tabs. Never lost a tab again!
 
-Available at: https://addons.mozilla.org/addon/restore-closed-tabs/
+Available at:
+* Firefox: https://addons.mozilla.org/addon/restore-closed-tabs/
+* Chrome: https://chrome.google.com/webstore/detail/restore-closed-tabs/fgiohnfjhpibbbanlanpneaajbepldkg?hl=en-US
 
 [![Buy me a coffee](https://img.shields.io/static/v1?label=Buy%20me%20a&message=coffee&color=important&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoff.ee/ayltai)
 

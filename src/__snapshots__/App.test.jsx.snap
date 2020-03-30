@@ -19,7 +19,6 @@ Array [
             aria-hidden="true"
             className="MuiSvgIcon-root MuiAvatar-fallback"
             focusable="false"
-            role="presentation"
             viewBox="0 0 24 24"
           >
             <path
@@ -64,7 +63,6 @@ Array [
           aria-hidden="true"
           className="MuiSvgIcon-root"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -101,7 +99,6 @@ Array [
           aria-hidden="true"
           className="MuiSvgIcon-root"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -152,7 +149,6 @@ Array [
           aria-hidden="true"
           className="MuiSvgIcon-root"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path

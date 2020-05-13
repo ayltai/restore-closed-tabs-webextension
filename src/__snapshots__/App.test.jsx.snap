@@ -16,7 +16,7 @@ Array [
           className="MuiAvatar-root MuiAvatar-square makeStyles-icon-5 MuiAvatar-colorDefault"
         >
           <svg
-            aria-hidden="true"
+            aria-hidden={true}
             className="MuiSvgIcon-root MuiAvatar-fallback"
             focusable="false"
             viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ Array [
         className="MuiListItemIcon-root makeStyles-wrapper-91"
       >
         <svg
-          aria-hidden="true"
+          aria-hidden={true}
           className="MuiSvgIcon-root"
           focusable="false"
           viewBox="0 0 24 24"
@@ -96,7 +96,7 @@ Array [
         className="MuiListItemIcon-root makeStyles-wrapper-95"
       >
         <svg
-          aria-hidden="true"
+          aria-hidden={true}
           className="MuiSvgIcon-root"
           focusable="false"
           viewBox="0 0 24 24"
@@ -146,7 +146,7 @@ Array [
         className="MuiListItemIcon-root makeStyles-wrapper-97"
       >
         <svg
-          aria-hidden="true"
+          aria-hidden={true}
           className="MuiSvgIcon-root"
           focusable="false"
           viewBox="0 0 24 24"
